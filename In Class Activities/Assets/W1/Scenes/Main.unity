@@ -11602,8 +11602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 222cb4abd7ccd4c3b8a649c4a44d0e3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  _moveSpeed: 1.5
-  _turnSpeed: 10
+  _moveSpeed: 3
+  _turnSpeed: 30
   _animator: {fileID: 6397291155275392794}
 --- !u!1 &6499904795538962815
 GameObject:
