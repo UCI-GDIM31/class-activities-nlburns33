@@ -2,6 +2,7 @@
 ## Devlogs
 ### W1
 Hello world!
+When the camera is moved off of the Cat GameObject, the camera stays in place and does not follow the cat like it did previously. This happens because the camera is no longer a child of the Cat and the movement is no longer tied to it.
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
