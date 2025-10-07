@@ -7,6 +7,9 @@ When the camera is moved off of the Cat GameObject, the camera stays in place an
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
 
+1: The r, g, and b variables are all floats instead of integers, booleans, or strings because a float is for decimals and rgb values are decimal values, the other types would not be able to store it correctly.
+2: The _bounce variable is an integer instead of a float, boolean, or string because it is meant to count whole numbers of bounces. This is fit for the integer type.
+3: The error told me that a semicolon was missing.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
