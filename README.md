@@ -10,6 +10,13 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 1: The r, g, and b variables are all floats instead of integers, booleans, or strings because a float is for decimals and rgb values are decimal values, the other types would not be able to store it correctly.
 2: The _bounce variable is an integer instead of a float, boolean, or string because it is meant to count whole numbers of bounces. This is fit for the integer type.
 3: The error told me that a semicolon was missing.
+
+### W3
+
+Table 16
+The parameter is int sanity. The output is void.
+
+Metaphor: Batman is the class. He can enter the batmobile to control its functions as a component. Batman has gadgets that are the member variables and can use those gadgets in methods that are his actions.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
