@@ -24,6 +24,9 @@ Table 16
 Line 17: Creates a private boolean member variable set to true called '_isGrounded' 
 Line 28: Uses an if statement to check if the space key is pressed down and the _isGrounded variable is true.
 Line 32: Sets the _isGrounded variable to false.
+
+We added Rigidbodies to the cat and soccer ball, with the IsTrigger checked on the goal.
+I forgot to make the time updating code += instead of just =, so the time since last goal was resetting constantly.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
