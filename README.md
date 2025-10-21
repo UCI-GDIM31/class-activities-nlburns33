@@ -18,6 +18,12 @@ The parameter is int sanity. The output is void.
 
 Metaphor: Batman is the class. He can enter the batmobile to control its functions as a component. Batman has gadgets that are the member variables and can use those gadgets in methods that are his actions.
 There is no limit for the brightness, so the multiplier can keep making the balls brighter and brighter.
+
+### W4
+Table 16
+Line 17: Creates a private boolean member variable set to true called '_isGrounded' 
+Line 28: Uses an if statement to check if the space key is pressed down and the _isGrounded variable is true.
+Line 32: Sets the _isGrounded variable to false.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
