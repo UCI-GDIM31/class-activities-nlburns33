@@ -31,6 +31,27 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
+        if (Input.GetKey(KeyCode.W) && _flipWSControls)
+        {
+
+            gameObject.GetComponent<Transform>().Translate(Vector3.forward * -1 * _moveSpeed * Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.W))
+        {
+            
+            gameObject.GetComponent<Transform>().Translate(Vector3.forward * _moveSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.S) && _flipWSControls)
+        {
+
+            gameObject.GetComponent<Transform>().Translate(Vector3.back * -1 * _moveSpeed * Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+
+            gameObject.GetComponent<Transform>().Translate(Vector3.back * _moveSpeed * Time.deltaTime);
+        }
+        
         //
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip

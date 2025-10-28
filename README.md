@@ -32,6 +32,10 @@ I forgot to make the time updating code += instead of just =, so the time since 
 
 Question: How do you use the getComponent function/ what is the proper syntax when using it.
 Answer: It gets the component from a gameObject as a reference. You can set it to a variable or directly use a method on it. When not setting it to a vaariable you can add the method to the end, like ___.getComponent<>().StopAnimation()
+Plan:
+Create a player gameObject. Get the player transform from that object. Get the navmesh agent from the deer and use setDestination to make the deer follow the deer transform position.
+Member Variables: _catTransform to get the transform of the cat, _cat to get the cat gameObject.
+Methods: It should use the Update() method to set _catTransform to the transform component, then use GetComponent to get the navmeshagent and set the destination to the _catTransform's position. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
