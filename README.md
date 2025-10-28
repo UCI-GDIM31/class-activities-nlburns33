@@ -27,6 +27,11 @@ Line 32: Sets the _isGrounded variable to false.
 
 We added Rigidbodies to the cat and soccer ball, with the IsTrigger checked on the goal.
 I forgot to make the time updating code += instead of just =, so the time since last goal was resetting constantly.
+
+### W5
+
+Question: How do you use the getComponent function/ what is the proper syntax when using it.
+Answer: It gets the component from a gameObject as a reference. You can set it to a variable or directly use a method on it. When not setting it to a vaariable you can add the method to the end, like ___.getComponent<>().StopAnimation()
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
