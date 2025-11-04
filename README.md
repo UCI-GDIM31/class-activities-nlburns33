@@ -42,13 +42,14 @@ My category: C# Scripting
 [Google Doc:](https://docs.google.com/document/d/1_FuPSWqTkXPrMthJ3fE3VoS7TKVECOjqZArYk2FPLWk/edit?usp=sharing)
 BatW6
 monobehaviour, 
-Member variables: [SerializeField} float _speed, 
+Member variables: [SerializeField} float _speed, catPosition, batPosition, cat reference
 Start chasing: 
 enabled = true
 Stop chasing: 
 enabled = false
 update:
-get player position, set destination
+get player position, get bat position.
+Use MoveTo
 
 ## Open-Source Assets
 ### W1
