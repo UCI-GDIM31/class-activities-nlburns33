@@ -36,6 +36,20 @@ Plan:
 Create a player gameObject. Get the player transform from that object. Get the navmesh agent from the deer and use setDestination to make the deer follow the deer transform position.
 Member Variables: _catTransform to get the transform of the cat, _cat to get the cat gameObject.
 Methods: It should use the Update() method to set _catTransform to the transform component, then use GetComponent to get the navmeshagent and set the destination to the _catTransform's position. 
+
+### W6
+My category: C# Scripting
+[Google Doc:](https://docs.google.com/document/d/1_FuPSWqTkXPrMthJ3fE3VoS7TKVECOjqZArYk2FPLWk/edit?usp=sharing)
+BatW6
+monobehaviour, 
+Member variables: [SerializeField} float _speed, 
+Start chasing: 
+enabled = true
+Stop chasing: 
+enabled = false
+update:
+get player position, set destination
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
