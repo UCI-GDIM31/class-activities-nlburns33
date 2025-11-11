@@ -51,6 +51,11 @@ update:
 get player position, get bat position.
 Use MoveTo
 
+### W7
+My Role: Gameplay
+[Google Doc:](https://docs.google.com/document/d/15Bf9iq4hlaq_e307D2wAsGnGOj82cBwZpf1YgvIXKqo/edit?usp=sharing)
+In step 2 transform.Position will only move the muskrat along the world's z axis, instead of the muskrat's local z axis. It has to use transform.Translate instead.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
